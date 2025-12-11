@@ -2,11 +2,12 @@ def employee_details(name,emp_id,department,salary):
     result= (
         f"Employee Name:{name}\n"
         f"Employee ID:{emp_id}\n"
-        f"Employee department:{department}\n"
-        f"Employee salary:{salary}\n"
+        f"department:{department}\n"
+        f"salary:{salary}\n"
     )
     return result
-if__name__="__main__":
+    
+if__name__ == "__main__":
     name="alice"
     emp_id="e1001"
     department="IT"
