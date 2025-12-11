@@ -7,9 +7,8 @@ def  employee_details(name,emp_id,department,salary):
     )
     return result
 if__name__="__main__":
-#sample input(you can change)
-Name="alice"
-emp_id="e1001"
-department="IT"
-salary=55000
-print(employee_details(name,emp_id,department,salary))
+    name="alice"
+    emp_id="e1001"
+    department="IT"
+    salary=55000
+    print(employee_details(name,emp_id,department,salary))
