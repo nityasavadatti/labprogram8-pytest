@@ -7,7 +7,7 @@ def employee_details(name,emp_id,department,salary):
     )
     return result
     
-if__name__ == "__main__":
+if __name__ == "__main__":
     name="alice"
     emp_id="e1001"
     department="IT"
