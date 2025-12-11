@@ -1,7 +1,7 @@
 //test_employee.py
 
 from employee import employee_details
-def test_employee_details ():
+def test_employee_details():
     expected_output = (
         "employee name:alice\n"
         "employee id:e1001\n"
