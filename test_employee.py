@@ -6,6 +6,6 @@ def test_employee_details():
         "Employee_Name:alice\n"
         "Employee_Id:e1001\n"
         "Department:IT\n"
-        "Salary:55000"
+        "salary:55000"
     )
     assert employee_details("alice","e1001","IT",55000)== expected_output
