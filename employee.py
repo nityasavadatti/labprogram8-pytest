@@ -1,5 +1,5 @@
 def employee_details(name,emp_id,department,salary):
-    result= (
+    result = (
         f"Employee Name:{name}\n"
         f"Employee ID:{emp_id}\n"
         f"department:{department}\n"
